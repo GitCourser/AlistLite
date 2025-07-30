@@ -150,7 +150,7 @@ BuildRelease() {
   # upx --best ./alistlite-linux-amd64
   # cp ./alistlite-windows-amd64.exe ./alistlite-windows-amd64-upx.exe
   # upx --best ./alistlite-windows-amd64-upx.exe
-  mv alist-* build
+  mv alistlite-* build
 }
 
 BuildReleaseLinuxMusl() {
